@@ -1,0 +1,29 @@
+.door-box {
+  position: absolute;
+  font-size: 4rem;
+  cursor: pointer;
+}
+.door-box.circle {
+  border-radius: 50%;
+}
+.door-box.square.selected {
+  border: 4px solid blue;
+}
+.door-box.circle.selected {
+  border: 4px solid blue;
+}
+
+
+
+
+
+
+
+.base-line {
+  position: absolute;
+  cursor: pointer;
+  background-color: red;
+}
+.base-line.selected {
+  border: 4px solid blue;
+}
