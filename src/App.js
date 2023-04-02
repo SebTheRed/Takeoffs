@@ -5,6 +5,8 @@ import CanvasComponent from './CanvasPieces/CanvasComponent';
 import DoorStamp from './ObjectTiles/DoorStamp';
 import BaseStamp from './ObjectTiles/BaseStamp';
 import HeaderBar from './HeaderBar';
+import Login from './Login';
+import TakeoffCard from './TakeoffCard';
 
 // :)
 //V1 Complete 2/23/2023
@@ -15,8 +17,14 @@ function App() {
 
   const [baseUrl, setBaseUrl] = useState('https://amp-server-ltmvs7f3fa-ue.a.run.app/')
   // const [baseUrl, setBaseUrl] = useState('http://localhost:1396/')
-  const [postPoint, setPostPoint] = useState('PostMeridiaPompton/')
-  const [getPoint, setGetPoint] = useState('GetMeridiaPompton/')
+  const [postPoint, setPostPoint] = useState('takeoffs/PostData')
+  const [getPoint, setGetPoint] = useState('takeoffs/GetData')
+
+  const [allTakeoffsData, setAllTakeoffsData] = useState([])
+  const [chosenTakeoffData, setChosenTakeoffData] = useState([])
+
+  //loginState sets to true or false depending on login
+  const [loginState, setLoginState] = useState('failure')
 
   //countsState keeps track of the current quantities of stamps created/deleted
   const [countsState, setCountsState] = useState({
@@ -63,8 +71,6 @@ function App() {
   const [canvasDims, setCanvasDims] = useState(['1000px', '1000px'])
   //chosenItemType is used to pass between the header & canvas to determine what is being pressed.
   const [chosenItemType, setChosenItemType] = useState('selectionToolButton')
-  //loginAuth not implemented yet.
-  const [loginAuth, setLoginAuth] = useState('failure')
   //darkMode is self explainatory
   const [darkMode, setDarkMode] = useState(localStorage.getItem('darkOrLight'))
   //selectedDoorStampIndex is an integer that reflect what the index is of the chosen door stamp in the svg-frame. Same as base counterpart.
@@ -88,13 +94,29 @@ function App() {
 
 
 /* -- EFFECTS -- */
-
+useEffect(()=> {
+  async function getAllTakeoffs() {
+    const takeoffsFetch = await fetch(baseUrl + 'database/takeoffs', {
+      method: 'GET'
+    })
+    .then(result => result.json())
+    .then(data => {
+      console.log(data)
+      setAllTakeoffsData(data.getTakeoffsSheet.data.values)
+    })
+  }
+  getAllTakeoffs()
+}, [])
 //WOAH..... the big one...
 useEffect(() => {
+  if (chosenTakeoffData.length == 0) {return}
   //pullData calls, manipulates, and sets all of the backend data to the front end.
   async function pullData() {
-    const invoiceFetch = await fetch(baseUrl + getPoint, {
-        method: 'GET'
+    console.log('TAKEOFF CHOSEN!')
+    const matchingTakeoffPost = await fetch(baseUrl + getPoint, {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({parcel: [chosenTakeoffData[8], chosenTakeoffData[9]]}),
     })
     .then(result => result.json())
     .then(data => {
@@ -223,7 +245,7 @@ useEffect(() => {
 
   //Don't forget to run the huge async function that makes up this entire effect!!
   pullData()
-}, [])
+}, [chosenTakeoffData])
 
 
 
@@ -231,8 +253,14 @@ useEffect(() => {
 //"This is where the fun begins"
 
 
+const setLoginAuth = (v) => {
+  setLoginState(v)
+}
 
-
+const assignTakeoffData =(v)=> {
+setChosenTakeoffData(v)
+console.log(v)
+}
 
 const handleMultiplierChanger = (e) => {
 
@@ -1380,6 +1408,7 @@ const deleteSticksStampInRange = () => {
     //Assembling an obj into a reference so it can be called live for the POST.
     //Gathers literally every piece of data at once.
     bundledValueBucket.current = {
+      sheetID: chosenTakeoffData[8],
       info: [...takeOffInfo],
       counts: {...countsState},
       stamps: [...allDoorCountArray],
@@ -1618,7 +1647,18 @@ const setScale =(e) => {
 //CanvasComponent: Something has to hear the clicks & get mouse data. All this returns is a single <canvas> XML
 //DoorStamp: Prints all stamps using a single <div>XML, but obviously as many <div> as there are stamps on the page.
 //BaseStamp "" sticks 
-
+if (loginState == 'failure') {
+  return(
+    <Login baseUrl={baseUrl} setLoginAuth={setLoginAuth} />
+  )
+} else if (loginState == 'success') {
+  if (chosenTakeoffData.length == 0) {
+    return(
+      <div className='selection-page'>
+        {allTakeoffsData.map((takeoff, index) => <TakeoffCard assignTakeoffData={assignTakeoffData} takeoffInfo={takeoff} index={index} key={Math.random()} /> )}
+      </div>
+    )
+  } else {
   return (
     <div className="App" >
       <HeaderBar openCloseMultiplierInput={openCloseMultiplierInput} defaultMultiplierVal={defaultMultiplierValRef.current} handleMultiplierChanger={handleMultiplierChanger} multiSelectToggle={multiSelectToggle} chosenBlueprintScale={chosenBlueprintScale} setScale={setScale} proxySaveStatus={proxySaveStatus} saveStatus={saveStatus} pageBack={pageBack} pageForward={pageForward} saveButton={saveButton} darkModeLightSwitch={darkModeLightSwitch} proxySetChosenItemType={proxySetChosenItemType} countsState={countsState} />
@@ -1644,6 +1684,7 @@ const setScale =(e) => {
       
     </div>
   );
+}}
 }
 
 export default App;

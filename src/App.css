@@ -565,3 +565,181 @@ color: white;
 }
 
 
+/* -LOGIN- */
+.tab-wrapper.login {
+  position: absolute;
+  z-index: 100;
+  /* background: linear-gradient(124deg, #e8b71d, #e3e81d, #1de840, #1de8c6);
+  background-size: 1800% 1800%;
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite; */
+  /* background-image: linear-gradient( -10deg, #f10d5e 0%, #ffb43e 25%, #43e03c 50%, #6528ff 100%);
+  animation: unicorn-slide 10s ease infinite;
+  -webkit-animation: unicorn-slide 10s ease infinite;
+  background-size: 200% 200%;
+  overflow: hidden;*/
+  min-height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient( -400deg, #f10d5e 0%, #ffb43e 40%, #43e03c 100%);
+  animation: unicorn-slide 10s ease infinite;
+  -webkit-animation: unicorn-slide 10s ease infinite;
+  background-size: 200% 200%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+@keyframes unicorn-slide {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+
+@-webkit-keyframes unicorn-slide {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+/* @-webkit-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+} */
+
+
+#login-wrapper {
+  padding: 8%;
+  width: 40%;
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: black;
+  background-color: white;
+  box-shadow: 0px 0px 20px black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  border-radius: 2vh;
+}
+#login-wrapper.denied {
+  animation: denied 1s, shake 0.5s;
+}
+@keyframes denied {
+  0%{box-shadow: 0px 0px 50px rgba(255, 0, 0, 0.1);}
+  10%{box-shadow: 0px 0px 250px rgb(255, 166, 0);}
+  80%{box-shadow: 0px 0px 50px rgba(255, 68, 0, 0.8);}
+  100%{box-shadow: 0px 0px 20px rgb(0, 0, 0);}
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.login-input-wrapper {
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-input {
+  margin: 1%;
+  font-size: 2rem;
+  width: 80%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  cursor: pointer;
+  border-radius: .8vh;
+}
+.login-description {
+  font-size: 1rem;
+}
+
+
+
+.selection-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card-wrapper {
+  width: 380px;
+  margin: .8vw;
+  height: 500px;
+  background-color: rgb(217, 217, 217);
+  font-size: 1em;
+  border-radius: 2vh;
+  box-shadow: 0px 0px 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-wrapper:hover {
+  cursor: pointer;
+  filter: brightness(1.05);
+  box-shadow: 0px 0px 20px;
+}
+
+.card-info-wrapper {
+  background-color: var(--whiteColor);
+  margin: 1vh;
+  border-radius: 1vh;
+  border: 2px solid var(--grayColor);
+  width: 90%;
+  overflow: hidden;
+  padding: 2%;
+}
+
+.card-info-column {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.card-info {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.card-info-wrapper.image {
+  height: 50%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image {
+  width: 95%;
+}
