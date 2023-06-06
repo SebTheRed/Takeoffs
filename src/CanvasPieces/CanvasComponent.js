@@ -3,7 +3,7 @@ import {useEffect, useRef, useState} from 'react'
 
 
 
-const CanvasComponent = ({ findSelectedRange, updateDoorCountArray, canvasDims, typeCountUpdater, chosenItemType, processLineDraw}) => {
+const CanvasComponent = ({transformValuesRef,findSelectedRange, updateDoorCountArray, canvasDims, typeCountUpdater, chosenItemType, processLineDraw}) => {
     //1inch == 96px
     //36 x 24 == 3456 x 2304
     // 24 x 18 == 2304 x 1726
@@ -43,24 +43,18 @@ const CanvasComponent = ({ findSelectedRange, updateDoorCountArray, canvasDims, 
     
     }, [])
 
-    //This timer moves the view down to the bottom right, so the site opens to showing the plans information.
-    useEffect(() => {
-      if (canvasDims.length != 0) {
-        canvasReference.current.scrollIntoView({ behavior: "smooth", block: "end", inline: "end" })
-      }
-    }, [canvasDims])
-
 
     //Checks the mouse position in the whole DOM, then subtracts the bounding of the canvas to figure the XY of the mouse inside of the canvas.
     //Since the canvas 1:1 overlays the blueprints, the X Y of the mouse over the canvas is always the same as the X Y of the plans.
     //This function tracks the mouse coords on move, which I don't even think is necessary lol.
-    const getCursorPosition =(event)=> {
-        let rect = canvasReference.current.getBoundingClientRect()
-        const xRealtime = event.clientX - rect.left
-        const yRealtime = event.clientY - rect.top
+    const getCursorPosition =(e)=> {
+      let rect = canvasReference.current.getBoundingClientRect();
+      const tVals = transformValuesRef.current
+      let xMouseActual = (e.clientX - rect.left) / tVals.scale;
+      let yMouseActual = (e.clientY - rect.top) / tVals.scale;
         // console.log("x: " + xRealtime + " y: " + yRealtime)
         //Setting a reference so these coordinates can be called in real time, with no re-render.
-        mouseCanvasRealtimeCoords.current = {x: xRealtime, y: yRealtime}
+        mouseCanvasRealtimeCoords.current = {x: xMouseActual, y: yMouseActual}
       }
 
 //idk honestly
@@ -74,19 +68,23 @@ const CanvasComponent = ({ findSelectedRange, updateDoorCountArray, canvasDims, 
         // e.stopPropagation();
         let stampColor = ''
 
+        //Below I am trying to establish realtime coordinates that work with react-zoom-pan-pinch.
+        //I've passed transformValues from App.js, and use it here.
+        let rect = canvasReference.current.getBoundingClientRect();
+        const tVals = transformValuesRef.current
+        let xMouseActual = (e.clientX - rect.left) / tVals.scale;
+        let yMouseActual = (e.clientY - rect.top) / tVals.scale;
+
+
         //drawSquareClick fires based on the type of stamp, which is determined in the switch below.
         //First it gets the XY coords, same logic as getCursorPosition
         //Then it determines an aspect ratio, which I think is entirely unnecessary.
         //Then it sends the information to App, so it can be pushed into the stamp arrays!
-        const drawSquareClick = (type) => {
-            let rect = canvasReference.current.getBoundingClientRect()
-            let xMouseCoord = e.clientX - rect.left
-            let yMouseCoord = e.clientY - rect.top
-            
+        const drawSquareClick = (type) => {  
             // console.log(contextReference.current)
             // console.log(xMouseCoord, yMouseCoord)
             const aspectRatio = (canvasDims[0] / canvasDims[1])
-            updateDoorCountArray(Math.floor(xMouseCoord), Math.floor(yMouseCoord), type, aspectRatio)
+            updateDoorCountArray(Math.floor(xMouseActual), Math.floor(yMouseActual), type, aspectRatio)
         }
 
         
@@ -136,7 +134,7 @@ const CanvasComponent = ({ findSelectedRange, updateDoorCountArray, canvasDims, 
             lineDrawingCoords.current.firstX = xMouseCoord1
             lineDrawingCoords.current.firstY = yMouseCoord1
             console.log(lineDrawingCoords.current)
-            processLineDraw(Math.floor(xMouseCoord1), Math.floor(yMouseCoord1), 16, 'horizontal', 'baseBoard16')
+            processLineDraw(Math.floor(xMouseActual), Math.floor(yMouseActual), 16, 'horizontal', 'baseBoard16')
         }
         //drawLine16Vertical fires based on the type of stamp, which is determined in the switch below.
         const drawLine16Vertical = () => {
@@ -146,7 +144,7 @@ const CanvasComponent = ({ findSelectedRange, updateDoorCountArray, canvasDims, 
             lineDrawingCoords.current.firstX = xMouseCoord1
             lineDrawingCoords.current.firstY = yMouseCoord1
             console.log(lineDrawingCoords.current)
-            processLineDraw(Math.floor(xMouseCoord1), Math.floor(yMouseCoord1), 16, 'vertical', 'baseBoard16')
+            processLineDraw(Math.floor(xMouseActual), Math.floor(yMouseActual), 16, 'vertical', 'baseBoard16')
         }
 
         //This switch checks what button is selected, and "draws" the shape accordingly, using the functions above.
@@ -263,11 +261,12 @@ const CanvasComponent = ({ findSelectedRange, updateDoorCountArray, canvasDims, 
                 stampColor = 'rgba(122, 178, 25, 0.4)'
             break;
             case 'selectionToolButton':
-              let rect = canvasReference.current.getBoundingClientRect()
-              let xMouseCoord2 = e.clientX - rect.left
-              let yMouseCoord2 = e.clientY - rect.top
-              selectionCoordsRef.current.secondX = xMouseCoord2
-              selectionCoordsRef.current.secondY = yMouseCoord2
+              let rect = canvasReference.current.getBoundingClientRect();
+              const tVals = transformValuesRef.current
+              let xMouseActual = (e.clientX - rect.left) / tVals.scale;
+              let yMouseActual = (e.clientY - rect.top) / tVals.scale;
+              selectionCoordsRef.current.secondX = xMouseActual
+              selectionCoordsRef.current.secondY = yMouseActual
               // console.table(selectionCoordsRef.current)
 
 
@@ -323,11 +322,12 @@ const CanvasComponent = ({ findSelectedRange, updateDoorCountArray, canvasDims, 
         
         return
       }
-      let rect = canvasReference.current.getBoundingClientRect()
-      let xMouseCoord = e.clientX - rect.left
-      let yMouseCoord = e.clientY - rect.top
-      selectionCoordsRef.current.firstX = xMouseCoord
-      selectionCoordsRef.current.firstY = yMouseCoord
+      let rect = canvasReference.current.getBoundingClientRect();
+      const tVals = transformValuesRef.current
+      let xMouseActual = (e.clientX - rect.left) / tVals.scale;
+      let yMouseActual = (e.clientY - rect.top) / tVals.scale;
+      selectionCoordsRef.current.firstX = xMouseActual
+      selectionCoordsRef.current.firstY = yMouseActual
       selectionBoxAnimate();
       // console.log('START: ',xMouseCoord, yMouseCoord)
       }
@@ -359,7 +359,17 @@ const CanvasComponent = ({ findSelectedRange, updateDoorCountArray, canvasDims, 
 
     return(
         //Need I say more?
-            <canvas width={canvasDims[0]} height={canvasDims[1]} ref={canvasReference} onContextMenu={rightCLickHandler} onMouseMove={getCursorPosition} onClick={canvasClickHandler} onMouseUp={mouseUpHandler} onMouseDown={mouseDownHandler} onMouseOut={mouseLeaveHandler} id="canvas" />
+            <canvas 
+            width={canvasDims[0]} 
+            height={canvasDims[1]} 
+            ref={canvasReference} 
+            onContextMenu={rightCLickHandler} 
+            onMouseMove={getCursorPosition} 
+            onClick={canvasClickHandler} 
+            onMouseUp={mouseUpHandler} 
+            onMouseDown={mouseDownHandler} 
+            onMouseOut={mouseLeaveHandler}
+            id="canvas" />
     
     )
 }

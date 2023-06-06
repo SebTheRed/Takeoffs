@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 import './App.css';
 import BluePrintBackground from './Blueprints/BluePrintBackground';
 import CanvasComponent from './CanvasPieces/CanvasComponent';
@@ -7,6 +8,8 @@ import BaseStamp from './ObjectTiles/BaseStamp';
 import HeaderBar from './HeaderBar';
 import Login from './Login';
 import TakeoffCard from './TakeoffCard';
+
+
 
 // :)
 //V1 Complete 2/23/2023
@@ -24,7 +27,7 @@ function App() {
   const [chosenTakeoffData, setChosenTakeoffData] = useState([])
 
   //loginState sets to true or false depending on login
-  const [loginState, setLoginState] = useState('failure')
+  const [loginState, setLoginState] = useState('success')
 
   //countsState keeps track of the current quantities of stamps created/deleted
   const [countsState, setCountsState] = useState({
@@ -82,6 +85,13 @@ function App() {
 
   const [multiSelectToggle, setMultiSelectToggle] = useState(false)
 
+  const transformValuesRef = useRef({
+    scale: 0.2,
+    positionX: 0,
+    positionY: 0,
+  })
+
+  const transformRef = useRef(null)
   //backgroundImageRef references the img XML element in BluePrintBackground.js
   const backgroundImageRef = useRef()
   //bundledValueBucket is used to assemble data for posting to server.
@@ -1635,8 +1645,24 @@ const setScale =(e) => {
   setTakeOffInfo(takeoffInfoCopy)
   
 }
-
-
+const handleMove = (newTransform) => {
+  transformValuesRef.current = {
+    positionX: newTransform.state.positionX,
+    positionY: newTransform.state.positionY,
+    scale: newTransform.state.scale,
+  }
+  // console.log('Panning stopped');
+  // console.table(transformValuesRef.current)
+};
+const checkLeftClick = (e) => {
+  console.log(e)
+  console.log(e.key)
+  if (e.button == 0) {
+    console.log('LEFT CLICK')
+    console.log(e)
+  }
+  else console.log("other click")
+}
 
 
 /*--RETURN--*/
@@ -1664,9 +1690,22 @@ if (loginState == 'failure') {
       <HeaderBar openCloseMultiplierInput={openCloseMultiplierInput} defaultMultiplierVal={defaultMultiplierValRef.current} handleMultiplierChanger={handleMultiplierChanger} multiSelectToggle={multiSelectToggle} chosenBlueprintScale={chosenBlueprintScale} setScale={setScale} proxySaveStatus={proxySaveStatus} saveStatus={saveStatus} pageBack={pageBack} pageForward={pageForward} saveButton={saveButton} darkModeLightSwitch={darkModeLightSwitch} proxySetChosenItemType={proxySetChosenItemType} countsState={countsState} />
       <div id='app-body'>
       <div className='' id="canvas-frame">
-          <div className='canvas-frame-contents' id='canvasFrameContents'>
+        <TransformWrapper
+          limitToBounds={false}
+          initialScale={0.2}
+          minScale={0.2}
+          maxScale={1}
+          ref={transformRef}
+          onWheelStop={handleMove}
+          onPanningStop={handleMove}
+          panning={{activationKeys:["Alt","Shift"]}}
+        >
+          <TransformComponent>
+          <div
+          style={{pointerEvents:"auto"}}
+          className='canvas-frame-contents' id='canvasFrameContents'>
             <BluePrintBackground chosenPageIndex={chosenPageIndex} pageCountArray={pageCountArray} darkMode={darkMode} backgroundImageRef={backgroundImageRef} updateCanvasSizeImageDims={updateCanvasSizeImageDims} />
-            <CanvasComponent findSelectedRange={findSelectedRange} processLineDraw={processLineDraw} chosenItemType={chosenItemType} typeCountUpdater={typeCountUpdater} canvasDims={canvasDims} updateDoorCountArray={updateDoorCountArray}/>
+            <CanvasComponent transformValuesRef={transformValuesRef} findSelectedRange={findSelectedRange} processLineDraw={processLineDraw} chosenItemType={chosenItemType} typeCountUpdater={typeCountUpdater} canvasDims={canvasDims} updateDoorCountArray={updateDoorCountArray}/>
             <div className='svg-frame'>
               {doorCountArray.map((doorObjs,index) => {
                 return (
@@ -1678,6 +1717,8 @@ if (loginState == 'failure') {
               )})}
             </div>
           </div>
+          </TransformComponent>
+        </TransformWrapper>
         </div>
         
       </div>

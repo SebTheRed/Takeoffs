@@ -466,7 +466,7 @@ color: white;
   width: 95vw;
   height: 100%;
   border: 10px solid #cdcdcd;
-  overflow: scroll;
+  overflow: hidden;
   position: relative;
   animation: frameBackIn 0.2s ease-in;
   margin-right: 0vw;
