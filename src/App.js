@@ -27,7 +27,7 @@ function App() {
   const [chosenTakeoffData, setChosenTakeoffData] = useState([])
 
   //loginState sets to true or false depending on login
-  const [loginState, setLoginState] = useState('success')
+  const [loginState, setLoginState] = useState('failure')
 
   //countsState keeps track of the current quantities of stamps created/deleted
   const [countsState, setCountsState] = useState({
