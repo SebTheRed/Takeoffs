@@ -1,0 +1,25 @@
+[
+    {
+        "entryDoors": 520,
+        "privacyDoors": 1256,
+        "passageDoors": 867,
+        "twinPassageDoors": 329,
+        "slidingDoors": 0,
+        "louverDoors": 482,
+        "commercialDoors": 92,
+        "twinCommercialDoors": 7,
+        "stairDoors": 121,
+        "heavyFireDoors": 0,
+        "windowsThreeFT": 682,
+        "windowsSixFT": 349,
+        "windowsNineFt": 336,
+        "patioCasings": 7,
+        "baseBoard16": 0,
+        "baseBoard8": 0,
+        "twinLouvers": 0,
+        "twinSliders": 66,
+        "pocketDoors": 7,
+        "twinHeavyFireDoors": 0,
+        "twinStairDoors": 50
+    }
+]
