@@ -1694,7 +1694,7 @@ if (loginState == 'failure') {
           limitToBounds={false}
           initialScale={0.2}
           minScale={0.2}
-          maxScale={1}
+          maxScale={1.6}
           ref={transformRef}
           onWheelStop={handleMove}
           onPanningStop={handleMove}
