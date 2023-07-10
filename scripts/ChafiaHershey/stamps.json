@@ -1,0 +1,2153 @@
+[
+    {
+        "pageNum": 0,
+        "X": 784,
+        "Y": 1002,
+        "stampType": "stairDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 149, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 0,
+        "X": 749,
+        "Y": 1114,
+        "stampType": "heavyFireDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 76, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 0,
+        "X": 1420,
+        "Y": 891,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 0,
+        "X": 3186,
+        "Y": 1200,
+        "stampType": "twinHeavyFireDoors",
+        "shape": "square",
+        "color": "rgba(255, 0, 60, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 0,
+        "X": 2746,
+        "Y": 1136,
+        "stampType": "stairDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 149, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2785,
+        "Y": 879,
+        "stampType": "stairDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 149, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2475,
+        "Y": 915,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2427,
+        "Y": 1017,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2522,
+        "Y": 1025,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2479,
+        "Y": 767,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 1547,
+        "Y": 1315,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 1459,
+        "Y": 1290,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 1381,
+        "Y": 1245,
+        "stampType": "twinCommercialDoor",
+        "shape": "square",
+        "color": "rgba(221, 0, 255, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 1221,
+        "Y": 1173,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 1215,
+        "Y": 1070,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 1329,
+        "Y": 1097,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 1256,
+        "Y": 1117,
+        "stampType": "twinCommercialDoor",
+        "shape": "square",
+        "color": "rgba(221, 0, 255, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 1296,
+        "Y": 1025,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 852,
+        "Y": 721,
+        "stampType": "stairDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 149, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 1216,
+        "Y": 926,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 1161,
+        "Y": 968,
+        "stampType": "twinHeavyFireDoors",
+        "shape": "square",
+        "color": "rgba(255, 0, 60, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2530,
+        "Y": 971,
+        "stampType": "twinHeavyFireDoors",
+        "shape": "square",
+        "color": "rgba(255, 0, 60, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 1754,
+        "Y": 934,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 1155,
+        "Y": 758,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 1242,
+        "Y": 639,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 1340,
+        "Y": 932,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 808,
+        "Y": 905,
+        "stampType": "stairDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 149, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2737,
+        "Y": 1062,
+        "stampType": "stairDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 149, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1312,
+        "Y": 1097,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1309,
+        "Y": 1213,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1466,
+        "Y": 1210,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1177,
+        "Y": 1237,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 3181,
+        "Y": 1157,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 3062,
+        "Y": 1149,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2831,
+        "Y": 1117,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2639,
+        "Y": 1198,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2572,
+        "Y": 1100,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2416,
+        "Y": 1181,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2343,
+        "Y": 1092,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2227,
+        "Y": 1151,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2221,
+        "Y": 1090,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1987,
+        "Y": 1086,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1989,
+        "Y": 1203,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1867,
+        "Y": 1207,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1867,
+        "Y": 1126,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1631,
+        "Y": 1200,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1631,
+        "Y": 1123,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1516,
+        "Y": 1234,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1238,
+        "Y": 1235,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1264,
+        "Y": 996,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1131,
+        "Y": 1092,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 901,
+        "Y": 1087,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1020,
+        "Y": 1245,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 974,
+        "Y": 1204,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 761,
+        "Y": 1146,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1065,
+        "Y": 1184,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2779,
+        "Y": 1209,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2816,
+        "Y": 1269,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2865,
+        "Y": 1235,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2818,
+        "Y": 1035,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 1098,
+        "Y": 1011,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 1022,
+        "Y": 1026,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 1069,
+        "Y": 1075,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 806,
+        "Y": 962,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 949,
+        "Y": 914,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2723,
+        "Y": 1022,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2616,
+        "Y": 926,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2870,
+        "Y": 947,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2914,
+        "Y": 1055,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2864,
+        "Y": 1096,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 3085,
+        "Y": 969,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 3220,
+        "Y": 983,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2581,
+        "Y": 1269,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 1437,
+        "Y": 1289,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 1270,
+        "Y": 1279,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 1264,
+        "Y": 1193,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 1033,
+        "Y": 1264,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 776,
+        "Y": 993,
+        "stampType": "stairDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 149, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 2696,
+        "Y": 1133,
+        "stampType": "stairDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 149, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 3153,
+        "Y": 1236,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 3012,
+        "Y": 1225,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 2783,
+        "Y": 1200,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 2442,
+        "Y": 1269,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 2560,
+        "Y": 1185,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 2310,
+        "Y": 1159,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 2178,
+        "Y": 1150,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 2182,
+        "Y": 1241,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 1959,
+        "Y": 1281,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 1948,
+        "Y": 1145,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 1827,
+        "Y": 1192,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 1807,
+        "Y": 1286,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 1584,
+        "Y": 1279,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 1594,
+        "Y": 1198,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 1472,
+        "Y": 1316,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 1232,
+        "Y": 1073,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 1094,
+        "Y": 1172,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 1209,
+        "Y": 1314,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 986,
+        "Y": 1312,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 918,
+        "Y": 1273,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 869,
+        "Y": 1168,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 722,
+        "Y": 1229,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 2833,
+        "Y": 1306,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 2791,
+        "Y": 1346,
+        "stampType": "entryDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 0, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 2746,
+        "Y": 1287,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 3,
+        "X": 1146,
+        "Y": 1312,
+        "stampType": "commercialDoor",
+        "shape": "square",
+        "color": "rgba(255, 0, 221, 0.4)",
+        "QTY": 2
+    },
+    {
+        "pageNum": 1,
+        "X": 983,
+        "Y": 863,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 682,
+        "Y": 900,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 858,
+        "Y": 1153,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 1001,
+        "Y": 1174,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 940,
+        "Y": 1215,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2652,
+        "Y": 1123,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2586,
+        "Y": 1262,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2905,
+        "Y": 898,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 3066,
+        "Y": 905,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 3267,
+        "Y": 923,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 3063,
+        "Y": 1207,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2876,
+        "Y": 1187,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2952,
+        "Y": 1267,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 3110,
+        "Y": 1356,
+        "stampType": "passageDoor",
+        "shape": "square",
+        "color": "rgba(136, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 776,
+        "Y": 913,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 841,
+        "Y": 1097,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 913,
+        "Y": 1293,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 912,
+        "Y": 790,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2565,
+        "Y": 1195,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2970,
+        "Y": 1331,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 3086,
+        "Y": 1147,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 3206,
+        "Y": 850,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 3137,
+        "Y": 848,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2836,
+        "Y": 816,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2664,
+        "Y": 798,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 1,
+        "X": 2575,
+        "Y": 854,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 965,
+        "Y": 1359,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 805,
+        "Y": 1338,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 642,
+        "Y": 1070,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 949,
+        "Y": 1038,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1099,
+        "Y": 1041,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1299,
+        "Y": 937,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1271,
+        "Y": 1373,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1463,
+        "Y": 1362,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1667,
+        "Y": 1270,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1849,
+        "Y": 1283,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1823,
+        "Y": 1051,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1658,
+        "Y": 1051,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2024,
+        "Y": 1022,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2168,
+        "Y": 1023,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2182,
+        "Y": 1233,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2024,
+        "Y": 1272,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2400,
+        "Y": 1038,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2538,
+        "Y": 1041,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2444,
+        "Y": 1247,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2599,
+        "Y": 1257,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2876,
+        "Y": 1390,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 3024,
+        "Y": 1379,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2867,
+        "Y": 1074,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 3022,
+        "Y": 1086,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 3232,
+        "Y": 1106,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 737,
+        "Y": 1088,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 797,
+        "Y": 1268,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 873,
+        "Y": 1480,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 898,
+        "Y": 1387,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2919,
+        "Y": 1432,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 3043,
+        "Y": 1329,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2924,
+        "Y": 1510,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 3170,
+        "Y": 1030,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 3106,
+        "Y": 1022,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2814,
+        "Y": 992,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2711,
+        "Y": 1347,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2324,
+        "Y": 1306,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2248,
+        "Y": 1298,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2615,
+        "Y": 974,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2319,
+        "Y": 947,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 2261,
+        "Y": 949,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1957,
+        "Y": 947,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1961,
+        "Y": 1341,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1891,
+        "Y": 1362,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1603,
+        "Y": 1342,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1528,
+        "Y": 1433,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1233,
+        "Y": 1594,
+        "stampType": "passageDoor",
+        "shape": "square",
+        "color": "rgba(136, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 867,
+        "Y": 966,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1176,
+        "Y": 962,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1592,
+        "Y": 988,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1880,
+        "Y": 986,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 3059,
+        "Y": 1532,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 2,
+        "X": 1239,
+        "Y": 863,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 3194,
+        "Y": 1180,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2987,
+        "Y": 1154,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2817,
+        "Y": 1135,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2875,
+        "Y": 1499,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2824,
+        "Y": 1450,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2981,
+        "Y": 1453,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2485,
+        "Y": 1372,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2383,
+        "Y": 1398,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2553,
+        "Y": 1405,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2150,
+        "Y": 1301,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 1997,
+        "Y": 1343,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 1994,
+        "Y": 1101,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2141,
+        "Y": 1098,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 1778,
+        "Y": 1130,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 1621,
+        "Y": 1127,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 1780,
+        "Y": 1346,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 1632,
+        "Y": 1343,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 1424,
+        "Y": 1433,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 1236,
+        "Y": 1439,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 925,
+        "Y": 1416,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 783,
+        "Y": 1409,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 861,
+        "Y": 1466,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 607,
+        "Y": 1142,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 900,
+        "Y": 1104,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 1058,
+        "Y": 1105,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 1274,
+        "Y": 1008,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2356,
+        "Y": 1099,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2501,
+        "Y": 1125,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 3133,
+        "Y": 1105,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 3066,
+        "Y": 1094,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2772,
+        "Y": 1071,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 3013,
+        "Y": 1400,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2891,
+        "Y": 1585,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2582,
+        "Y": 1344,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2592,
+        "Y": 1044,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2288,
+        "Y": 1354,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2347,
+        "Y": 1327,
+        "stampType": "privacyDoor",
+        "shape": "square",
+        "color": "rgba(255, 251, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2210,
+        "Y": 1370,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 1919,
+        "Y": 1413,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 1864,
+        "Y": 1408,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 1558,
+        "Y": 1409,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 1490,
+        "Y": 1502,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 1201,
+        "Y": 1670,
+        "stampType": "passageDoor",
+        "shape": "square",
+        "color": "rgba(136, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 831,
+        "Y": 1544,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 754,
+        "Y": 1349,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 690,
+        "Y": 1159,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 836,
+        "Y": 1038,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 1118,
+        "Y": 1046,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 1199,
+        "Y": 938,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 1543,
+        "Y": 1061,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 1839,
+        "Y": 1058,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 1917,
+        "Y": 1024,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2209,
+        "Y": 1023,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 2273,
+        "Y": 1031,
+        "stampType": "twinPassageDoor",
+        "shape": "square",
+        "color": "rgba(38, 255, 0, 0.4)",
+        "QTY": 1
+    },
+    {
+        "pageNum": 3,
+        "X": 3030,
+        "Y": 1601,
+        "stampType": "passageDoor",
+        "shape": "square",
+        "color": "rgba(136, 255, 0, 0.4)",
+        "QTY": 1
+    }
+]
